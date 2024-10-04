@@ -1,2 +1,8 @@
 # MonteCarloPi
 Using the Monte Carlo method to estimate the value of π
+
+The Monte Carlo method is a statistical technique that utilizes random sampling to approximate numerical values. In the context of estimating π, this involves generating random points within a square and counting how many of them fall inside a unit circle. By calculating the ratio of points within the circle to the total number of points, we can approximate π. The accuracy of the estimate improves as the number of generated points increases.
+
+The principle behind this method lies in geometry: the area of a circle is defined by the formula A = π r^2. For a unit circle, where r = 1, the area simplifies to π. The square enclosing this circle has a side length of 2, making its area 4. Thus, the ratio of the circle’s area to the square’s area is π/4, and by calculating this ratio using random points, we can derive an estimate for π. The more points we use, the closer our approximation becomes to the true value of π.
+
+Monte Carlo methods are widely used across various fields such as physics, finance, and computer graphics, due to their ability to tackle complex problems through random sampling. Named after the Monte Carlo Casino in Monaco—where one of the technique’s inventors had an uncle who enjoyed playing roulette—the method was initially developed during World War II to model neutron behavior in nuclear reactions. Its versatility and power make it a foundational tool in computational mathematics and scientific research today.
